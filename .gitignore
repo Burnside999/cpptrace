@@ -1,3 +1,53 @@
+# Local instructions
 /agents.md
-/build
-/build-codex
+
+# CMake build directories
+/build/
+/build-*/
+/cmake-build-*/
+/out/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+Testing/
+
+# Build outputs
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+*.o
+*.obj
+*.pdb
+*.ilk
+*.exp
+
+# Compiler and coverage artifacts
+*.gcda
+*.gcno
+*.gcov
+*.profraw
+*.profdata
+
+# IDE/editor files
+.vscode/
+.idea/
+*.user
+*.suo
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
